@@ -15,6 +15,7 @@
 		D8DB714B14D562F30001C3A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DB714A14D562F30001C3A6 /* AppDelegate.m */; };
 		D8DB714E14D562F30001C3A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DB714D14D562F30001C3A6 /* ViewController.m */; };
 		D8DB715114D562F30001C3A6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8DB714F14D562F30001C3A6 /* ViewController.xib */; };
+		D8DB715C14D578A00001C3A6 /* myPic.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D8DB715B14D578A00001C3A6 /* myPic.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		D8DB713A14D562F30001C3A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8DB713C14D562F30001C3A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8DB713E14D562F30001C3A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D8DB714214D562F30001C3A6 /* DocInteractionTest-Info.plist */ = {isa = PBXFileReference; path = "DocInteractionTest-Info.plist"; sourceTree = "<group>"; };
+		D8DB714214D562F30001C3A6 /* DocInteractionTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DocInteractionTest-Info.plist"; sourceTree = "<group>"; };
 		D8DB714414D562F30001C3A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8DB714614D562F30001C3A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8DB714814D562F30001C3A6 /* DocInteractionTest-Prefix.pch */ = {isa = PBXFileReference; path = "DocInteractionTest-Prefix.pch"; sourceTree = "<group>"; };
-		D8DB714914D562F30001C3A6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8DB714814D562F30001C3A6 /* DocInteractionTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DocInteractionTest-Prefix.pch"; sourceTree = "<group>"; };
+		D8DB714914D562F30001C3A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8DB714A14D562F30001C3A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D8DB714C14D562F30001C3A6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D8DB714C14D562F30001C3A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D8DB714D14D562F30001C3A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D8DB715014D562F30001C3A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D8DB715B14D578A00001C3A6 /* myPic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myPic.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		D8DB714114D562F30001C3A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8DB715B14D578A00001C3A6 /* myPic.JPG */,
 				D8DB714214D562F30001C3A6 /* DocInteractionTest-Info.plist */,
 				D8DB714314D562F30001C3A6 /* InfoPlist.strings */,
 				D8DB714614D562F30001C3A6 /* main.m */,
@@ -151,6 +154,7 @@
 			files = (
 				D8DB714514D562F30001C3A6 /* InfoPlist.strings in Resources */,
 				D8DB715114D562F30001C3A6 /* ViewController.xib in Resources */,
+				D8DB715C14D578A00001C3A6 /* myPic.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIDocumentInteractionControllerDelegate>
+
+@property (strong, nonatomic) UIDocumentInteractionController *docInterCon;
+@property (strong, nonatomic) IBOutlet UIButton *sendDocButton;
+
+- (IBAction)touchSendButton:(id)sender;
 
 @end
